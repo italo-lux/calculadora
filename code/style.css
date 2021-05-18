@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculadora {
+    max-width: 91%;
+    width: 400px;
+    border: solid 1px #dcdcdc;
+    padding: 14px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    font-size: 28px;
+}
+
+.tela input {
+    max-width: 100%;
+    display: inline-block;
+    width: 91%;
+    height: 38px;
+    background: #fefefe;
+    border: solid 1px #b5b5b5;
+    padding: 14px;
+    cursor: auto;
+    border-radius: 2px;
+}
+
+.tela input:focus {
+    outline: none;
+}
+
+.operadores button {
+    border: solid 1px #e4e4e4;
+    display: inline-block;
+    width: 23.1%;
+    padding: 22px;
+    margin: 4px 0px;
+    background: #f3f3f3;
+    border-radius: 2px;
+}
+
+.numeros button {
+    border: solid 1px #bfbfbf;
+    display: inline-block;
+    width: 31.4%;
+    padding: 18px;
+    margin: 4px 0px;
+    background: #e8e8e8;
+    border-radius: 2px;
+}
+
+.numeros {
+    display: inline-block;
+}
+
+.resultado button {
+    width: 98%;
+    height: 48px;
+    margin: 8px 0;
+    border: solid 1px #673ab7;
+    background: #a28ec5;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+button {
+    cursor: pointer;
+}
+
+.operadores button:hover,
+.numeros button:hover {
+    background: #dadada;
+}
+
+.operadores button,
+.numeros button {
+    transition-duration: 0.2s;
+}
+
+.resultado button:hover {
+    background: #8c78b1;
+}
+
+@media (max-width: 360px) {
+    .operadores button {
+        width: 48%;
+    }
+
+    .tela input {
+        width: 89%;
+    }
+}
