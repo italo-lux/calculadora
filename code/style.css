@@ -23,6 +23,7 @@
     padding: 14px;
     cursor: auto;
     border-radius: 2px;
+    font-size: 18px;
 }
 
 .tela input:focus {
