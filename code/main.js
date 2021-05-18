@@ -1,6 +1,6 @@
 import {
     Calculadora
-} from '/script/calculadora.js'
+} from './script/calculadora.js'
 
 const monitor = document.querySelector('.calculadora input')
 const buttons = document.querySelectorAll('.calculadora button')
