@@ -2,9 +2,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    display: flex;
+    width: 97vw;
+    height: 97vh;
+    position: fixed;
+  }
+
 .calculadora {
-    max-width: 91%;
-    width: 400px;
+    max-width: 80%;
+    width: 352px;
     border: solid 1px #dcdcdc;
     padding: 14px;
     border-radius: 4px;
@@ -31,22 +38,22 @@
 }
 
 .operadores button {
-    border: solid 1px #e4e4e4;
+    border: solid 1px #575757;
     display: inline-block;
     width: 23.1%;
     padding: 22px;
     margin: 4px 0px;
-    background: #f3f3f3;
+    background: #5b5b5b;
     border-radius: 2px;
 }
 
 .numeros button {
-    border: solid 1px #bfbfbf;
+    border: solid 1px #4d4d4d;
     display: inline-block;
     width: 31.4%;
     padding: 18px;
     margin: 4px 0px;
-    background: #e8e8e8;
+    background: #3c3c3c;
     border-radius: 2px;
 }
 
@@ -58,21 +65,21 @@
     width: 98%;
     height: 48px;
     margin: 8px 0;
-    border: solid 1px #673ab7;
-    background: #a28ec5;
+    border: solid 1px #3c3c3c;
+    background: #535353;
     border-radius: 2px;
     font-weight: bold;
-    color: white;
     transition-duration: 0.2s;
 }
 
 button {
     cursor: pointer;
+    color: white;
 }
 
 .operadores button:hover,
 .numeros button:hover {
-    background: #dadada;
+    background: #3c3c3c;
 }
 
 .operadores button,
@@ -81,7 +88,7 @@ button {
 }
 
 .resultado button:hover {
-    background: #8c78b1;
+    background: #3c3c3c;
 }
 
 @media (max-width: 360px) {
