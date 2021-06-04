@@ -27,7 +27,6 @@ export class Calculadora {
                 novo += calculo[i]
             }
         }
-        novo = novo.split(',,').join('')
         novo = novo.split(',')
         return novo
     }
